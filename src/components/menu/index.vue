@@ -29,7 +29,7 @@
 import { Menu, MenuItem, SubMenu, type MenuTheme } from 'ant-design-vue';
 import { MailOutlined, AppstoreOutlined } from '@ant-design/icons-vue';
 import type { IMenuList } from '@/type/common';
-import { ref, toRefs, watch, type PropType } from 'vue';
+import { ref, toRefs, type PropType } from 'vue';
 
 const theme = 'dark' as MenuTheme;
 const props = defineProps({
